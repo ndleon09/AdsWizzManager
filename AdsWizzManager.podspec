@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Nelson Domínguez" => "ndleon09@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/ndleon09/AdsWizzManager.git", :tag => "0.0.1" }
-  s.source_files = "*.{h,m}"
+  s.source_files = "/*.{h,m}"
   s.requires_arc = true
   
   s.dependency "AFNetworking"
