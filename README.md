@@ -35,7 +35,7 @@ Make the request using the class `AdsWizzManager`, for example:
 *Do not forget to implement the delegate `AdsWizzRequestDelegate`*
 
 ```objective-c
--(void)onResponseReady:(AdsWizzResponseObject *)adResponse;
+-(void)onResponseReady:(AdsWizzResponseObject *)adResponse
 {
     self.adResponseObject = adResponse;
 }
@@ -44,7 +44,7 @@ Make the request using the class `AdsWizzManager`, for example:
 {
     NSLog( @"Error: %@", info);
 }
-````
+```
 
 To make calls to **tracking urls**, use the fallowing methods of `AdsWizzResponseObject`
 
