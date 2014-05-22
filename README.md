@@ -46,7 +46,7 @@ Make the request using the class `AdsWizzManager`, for example:
 }
 ```
 
-To make calls to **tracking urls**, use the fallowing methods of `AdsWizzResponseObject`
+To make calls to **tracking urls**, use the following methods of `AdsWizzResponseObject`
 
 ```objective-c
 -(void)trackImpression;
