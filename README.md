@@ -18,12 +18,13 @@ To set a compiler flag in Xcode, go to your active target and select the "Build 
 
 Create a `AdsWizzRequestObject`, for example:
 
-`
+```objective-c
 AdsWizzRequestObject* request = [[AdsWizzRequestObject alloc] init];
 request.zone = @"XXXX";
 request.companionZone = @"XXXX";
 request.server = @"kriteria.adswizz.com";
-`
+````
+
 
 Make the request using the class `AdsWizzManager`, for example:
 
