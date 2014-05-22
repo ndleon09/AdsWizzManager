@@ -48,7 +48,7 @@ Make the request using the class `AdsWizzManager`, for example:
 
 To make calls to **tracking urls**, use the fallowing methods of `AdsWizzResponseObject`
 
-`
+```objective-c
 -(void)trackImpression;
 -(void)trackStart;
 -(void)trackCreativeView;
@@ -57,4 +57,4 @@ To make calls to **tracking urls**, use the fallowing methods of `AdsWizzRespons
 -(void)trackThirdQuartile;
 -(void)trackComplete;
 -(void)trackClick;
-`
+```
