@@ -8,7 +8,7 @@ Just add `"AdsWizzManager", :git => "https://github.com/ndleon09/AdsWizzManager"
 
 AdsWizzManager uses ARC (Automatic Reference Counting).
 
-If you are using AdsWizzManager in your non-arc project, you will need to set a -fobjc-arc compiler flag on all of the LPGoogleFunctions source files.
+If you are using AdsWizzManager in your non-arc project, you will need to set a -fobjc-arc compiler flag on all of the AdsWizzManager source files.
 
 To set a compiler flag in Xcode, go to your active target and select the "Build Phases" tab. Now select all AdsWizzManager source files, press Enter, insert -fobjc-arc and then "Done" to disable ARC for AdsWizzManager.
 
